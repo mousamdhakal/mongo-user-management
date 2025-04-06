@@ -1,15 +1,15 @@
 # Final MERN Stack Project Plan
 
 ## 1. Project Setup
-- [ ] Set up Node.js/Express backend with MongoDB connection
-- [ ] Create React frontend application
-- [ ] Install necessary dependencies (Axios, AG-Grid, Evergreen components)
+- [x] Set up Node.js/Express backend with MongoDB connection
+- [x] Create React frontend application
+- [x] Install necessary dependencies (Axios, AG-Grid, Evergreen components)
 
 ## 2. Backend Development
-- [ ] Create User model with required fields (name, DOB, address, contact info)
-- [ ] Implement REST API routes (GET, POST, PUT, DELETE)
-- [ ] Add simple authentication for login page
-- [ ] Populate database with sample user data
+- [x] Create User model with required fields (name, DOB, address, contact info)
+- [x] Implement REST API routes (GET, POST, PUT, DELETE)
+- [x] Add simple authentication for login page
+- [x] Populate database with sample user data
 
 ## 3. Frontend Development
 - [ ] Create login page with basic authentication
