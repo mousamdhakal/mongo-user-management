@@ -96,7 +96,7 @@ router.delete('/:id', protect, async (req, res) => {
       return res.status(404).json({ msg: 'User not found' });
     }
     
-    await user.remove();
+    await User.deleteOne({ _id: req.params.id });
     res.json({ msg: 'User removed' });
   } catch (error) {
     console.error(error.message);
